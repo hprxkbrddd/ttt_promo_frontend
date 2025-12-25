@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* базовый reset под SPA */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* чтобы не было горизонтального скролла от градиентов/теней */
+body {
+  overflow-x: hidden;
+}
